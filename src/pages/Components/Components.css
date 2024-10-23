@@ -1,0 +1,81 @@
+.components-container-all {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.components-container {
+  position: relative;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+.components-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../../../public/img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(2px);
+  z-index: 0;
+}
+
+.components-container > * {
+  position: relative;
+  z-index: 1;
+}
+
+.titles {
+  font-weight: bold;
+  color: white;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: black;
+  width: 330px;
+  padding: 5px 0px 5px 0px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.counter-time-container {
+  display: flex;
+}
+
+.counter-time-container2 {
+  display: grid;
+  width: 300px;
+  margin: auto;
+}
+
+.all-class {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.add-container2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.name-container-components {
+  font-weight: bold;
+  color: white;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: black;
+  width: 400px;
+  padding: 5px 0px 5px 0px;
+  margin: auto;
+  margin-bottom: 10px;
+}

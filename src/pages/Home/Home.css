@@ -1,0 +1,94 @@
+.profile-container {
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: column;
+  align-items: center;
+  /* background: linear-gradient(to right, #4facfe, #00f2fe); */
+  padding: 20px;
+  color: #fff;
+  /* border: 1px solid #000; */
+}
+
+h2 {
+  color: #6a5acd;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  color: #fff;
+  /* text-align: center; */
+}
+
+.profile-card {
+  display: flex;
+  background-color: #fff;
+  color: #000;
+  border-radius: 30px;
+  padding: 20px;
+  width: 70%;
+  max-width: 800px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid #e0e0e0;
+  padding-right: 20px;
+}
+
+.profile-all {
+    margin-top: 2rem;
+    color: #000;
+    font-size: 18px;
+}
+
+.profile-about {
+    margin-top: 0.5rem;
+    color: #000;
+    font-size: 11px;
+    margin-right: 5rem;
+}
+
+.profile-photo img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.profile-info {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.general-info,
+.other-info {
+  margin-bottom: 20px;
+}
+
+.general-info h3,
+.other-info h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td {
+  padding: 8px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.other-info p {
+  color: #333;
+}
